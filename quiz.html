@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZ</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <nav>
+    <a href="/triangle.html">Is Triangle or not?</a>
+    <a href="/quiz.html">Quiz</a>
+    <a href="/hyp.html">Hypotenuse</a>
+    <a href="/area.html">Area</a>
+  </nav>
+  <body>
+    <h1>Its a Quiz Time!</h1>
+    <form class="quiz-form">
+      <div class="quiz-container">
+        <p id="para">1. What is the sum of a triangle?</p>
+        <label class="label-quiz">
+          <input type="radio" name="question1" value="45" />45</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question1" value="160" />160</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question1" value="180" />180</label
+        >
+      </div>
+      <div class="quiz-container">
+        <p id="para">
+          2. If a Triangle has an angle of 90 degrees. what is it called?
+        </p>
+        <label class="label-quiz">
+          <input type="radio" name="question2" value="acute" />acute
+          angle</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question2" value="obtuse" />obtuse
+          angle</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question2" value="right angle" />right
+          angle</label
+        >
+      </div>
+
+      <div class="quiz-container">
+        <p id="para">
+          3. A triangle having two sides of equal length is called?
+        </p>
+        <label class="label-quiz">
+          <input
+            type="radio"
+            name="question3"
+            value="equilateral"
+          />equilateral</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question3" value="Isosceles" />Isosceles
+          angle</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question3" value="scalene" />scalene
+        </label>
+      </div>
+      <div class="quiz-container">
+        <p id="para">4. A scalene triangle has two sides of equal length.</p>
+        <label class="label-quiz">
+          <input type="radio" name="question4" value="True" />True</label
+        >
+        <label class="label-quiz">
+          <input type="radio" name="question4" value="False" />False</label
+        >
+      </div>
+    </form>
+    <div class="container">
+      <button id="submit">Submit answer</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
